@@ -9,20 +9,22 @@ jQuery(document).ready(function($) {
     $("#home").css({ height: $(window).height() });
     $("#home").css({ width: $(window).width() });
   });
+});
 
-  $(window).resize(function() {
-    if ($(this).width() < 765) {
-      $("#resume").hide();
-    } else {
-      $("#resume").show();
-      // $("#smallResume").removeClass("hiddenResume");
-      // $("#smallResume").addClass("showResume");
-    }
-  });
-  /*----------------------------------------------------*/
-  /* Smooth Scrolling
+// $(window).resize(function() {
+//   if ($(this).width() < 765) {
+//     $("#resume").hide();
+//   } else {
+//     $("#resume").show();
+// $("#smallResume").removeClass("hiddenResume");
+// $("#smallResume").addClass("showResume");
+//   }
+// });
+/*----------------------------------------------------*/
+/* Smooth Scrolling
 ------------------------------------------------------ */
 
+jQuery(document).ready(function($) {
   $(".smoothscroll").on("click", function(e) {
     e.preventDefault();
 
@@ -42,11 +44,13 @@ jQuery(document).ready(function($) {
         }
       );
   });
+});
 
-  /*----------------------------------------------------*/
-  /* Highlight the current section in the navigation bar
+/*----------------------------------------------------*/
+/* Highlight the current section in the navigation bar
 ------------------------------------------------------*/
 
+jQuery(document).ready(function($) {
   var sections = $("section");
   var navigation_links = $("#nav-wrap a");
 
