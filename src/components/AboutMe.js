@@ -59,7 +59,7 @@ export default function ImageAvatars() {
                 id="profile"
                 alt="Profile"
                 style={imgStyle}
-                src={require("/Users/sushovanadhikari/Documents/my-portfolio/src/Images/grad copy.JPG")}
+                src={require("../Images/grad copy.JPG")}
               />
             </div>
           </Grid>
