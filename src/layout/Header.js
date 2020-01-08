@@ -34,8 +34,13 @@ export default function Header() {
                 Projects
               </a>
             </li>
-            <li>
+            <li id="bigResumeNav">
               <a className="smoothscroll" href="#resume">
+                Resume
+              </a>
+            </li>
+            <li id="smallResumeNav">
+              <a className="smoothscroll" href="#smallResume">
                 Resume
               </a>
             </li>

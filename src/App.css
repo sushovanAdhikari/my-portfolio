@@ -20,3 +20,20 @@
 .App-link {
   color: #09d3ac;
 }
+
+@media (min-width: 765px) {
+  #nav-wrap #nav #bigResumeNav {
+    display: inline-block;
+  }
+  #nav-wrap #nav #smallResumeNav {
+    display: none;
+  }
+}
+@media (max-width: 765px) {
+  #nav-wrap #nav #bigResumeNav {
+    display: none;
+  }
+  #nav-wrap #nav #smallResumeNav {
+    display: block;
+  }
+}

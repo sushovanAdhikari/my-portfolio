@@ -4,6 +4,12 @@ body::-webkit-scrollbar {
   height: 0;
 }
 
+@media (min-width: 765px) {
+  #resume {
+    display: block;
+  }
+}
+
 #resume .pdf-view::-webkit-scrollbar {
   background-color: red;
 }
@@ -61,12 +67,6 @@ body::-webkit-scrollbar {
 @media (max-width: 765px) {
   #resume {
     display: none;
-  }
-}
-
-@media (min-width: 765px) {
-  #resume {
-    display: block;
   }
 }
 
