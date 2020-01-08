@@ -1,0 +1,63 @@
+body::-webkit-scrollbar {
+  background-color: red;
+  width: 0 !important;
+  height: 0;
+}
+
+#resume .pdf-view::-webkit-scrollbar {
+  background-color: red;
+}
+
+.App {
+  overflow-x: hidden;
+}
+
+.hiddenResume {
+  display: none;
+}
+
+.showResume {
+  display: block;
+}
+
+@media (max-width: 400px) {
+  #smallResume {
+    display: block;
+  }
+}
+
+@media (min-width: 400px) {
+  #smallResume {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  #aboutMeImageBox {
+    float: none !important;
+  }
+}
+
+#title {
+  display: flex;
+  font-family: Lusitana, serif;
+  margin-bottom: 10px;
+}
+#para {
+  font-family: Lusitana, serif;
+  text-align: left;
+}
+
+@media (max-width: 600px) {
+  #title {
+    justify-content: center;
+  }
+
+  #para {
+    text-align: center;
+  }
+}
+
+g.social-svg-background {
+  fill: white !important;
+}
